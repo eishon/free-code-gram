@@ -6,7 +6,7 @@ docker-compose exec php php /var/www/html/artisan migrate
 docker-compose exec php php /var/www/html/artisan migrate:fresh
 
 # php
-php artisan tinker
+docker-compose exec php php /var/www/html/artisan tinker
 
 # Misc
 composer update
