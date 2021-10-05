@@ -23,7 +23,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand d-flex" href="{{ url('/home') }}">
+                <a class="navbar-brand d-flex" href="{{ url('/') }}">
                     <div>
                         <img src="/svg/freeCodeGramLogo.svg" 
                             style="max-height: 25px; border-right: 1px solid #333;"
